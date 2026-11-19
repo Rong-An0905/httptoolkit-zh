@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 UI = Path(__file__).resolve().parent.parent / "ui"
-OUT = Path(r"D:\huayuncopy\_httptoolkit_work\strings.json")
+OUT = Path(__file__).resolve().parent / "strings.json"
 
 STR_RE = re.compile(r"""(?<![A-Za-z0-9_])(?:"([^"\\\n]{2,320})"|'([^'\\\n]{2,320})')""")
 BAD_CHARS = set('{}<>|`~\\^$=;*')

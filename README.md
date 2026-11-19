@@ -2,6 +2,20 @@
 
 在不修改 HTTP Toolkit 安装包的前提下，让桌面版界面显示中文，并支持**运行时随时切换中英文**。
 
+## 截图
+
+中文界面：
+
+![中文界面](screenshots/zh.png)
+
+中英即时切换（点击右下角按钮或 `Ctrl+Alt+L`）：
+
+![切换演示](screenshots/switch.gif)
+
+英文界面（原版）：
+
+![English UI](screenshots/en.png)
+
 ## 原理
 
 HTTP Toolkit 桌面版的界面本身是一个网页（默认从 `https://app.httptoolkit.tech` 加载）。本项目：

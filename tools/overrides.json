@@ -24,5 +24,13 @@
   "Intercept a fresh independent Firefox window": "拦截一个全新的独立 Firefox 窗口",
   "Intercept your main Chrome profile globally": "全局拦截你的主 Chrome 配置文件",
   "Browsers, mobile, docker...": "浏览器、移动设备、Docker…",
-  "docker container": "Docker 容器"
+  "docker container": "Docker 容器",
+  "Open a new terminal that intercepts all processes & Docker containers": "打开一个新终端，拦截其中所有进程与 Docker 容器",
+  "terminal on this machine to intercept all new processes & containers launched there.": "本机终端，用于拦截在其中启动的所有新进程与容器。",
+  "Add a new rule to rewrite requests or responses": "添加一条新规则，用于重写请求或响应",
+  "Add another tab to send a new request": "新增一个标签页，用于发送新请求",
+  "Can't reset a new rule": "无法重置尚未保存的新规则",
+  "New group": "新建分组",
+  "New request": "新建请求",
+  "The HTTP PUT request method creates a new resource or replaces a representation of the target resource with the request payload.": "HTTP PUT 请求方法会用请求负载创建新资源，或替换目标资源的表示。"
 }

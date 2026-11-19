@@ -4,11 +4,12 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+TOOLS = Path(__file__).resolve().parent
+ROOT = TOOLS.parent
 UI = ROOT / "ui"
-TEMPLATE = (ROOT / "i18n-zh.template.js").read_text("utf-8")
-DICT = json.loads((ROOT / "dict.json").read_text("utf-8"))
-OVERRIDES = json.loads((ROOT / "overrides.json").read_text("utf-8"))
+TEMPLATE = (TOOLS / "i18n-zh.template.js").read_text("utf-8")
+DICT = json.loads((TOOLS / "dict.json").read_text("utf-8"))
+OVERRIDES = json.loads((TOOLS / "overrides.json").read_text("utf-8"))
 INDEX = UI / "index.html"
 
 clean = {en: zh for en, zh in DICT.items() if zh and zh.strip() and zh.strip() != en.strip()}
